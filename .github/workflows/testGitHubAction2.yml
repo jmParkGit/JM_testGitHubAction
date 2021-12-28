@@ -40,3 +40,8 @@ jobs:
           ls -al
           cat /etc/issue
           
+      - name: Execute python
+        run: |
+          python app.py
+
+          
